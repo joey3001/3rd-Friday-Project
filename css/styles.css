@@ -25,17 +25,30 @@ input {
   border: solid black;
   border-width: 2px;
 }
+
 #message {
   background-color: rgba(245, 240, 229, 0.959);
   margin: auto;
   margin-top: 35px; 
+  margin-bottom: 20px;
   width: 75%;
-  height: auto;
   padding: 20px; 
   padding-left: 25px; 
   padding-right: 25px;
   font-weight: bold; 
   text-align: center;
+  border: solid black;
+  border-width: 3px;
+  border-radius: 10px;
+  display: none;
+}
+
+img {
+  background-color: rgba(245, 240, 229, 0.959);
+  margin: auto; 
+  width: 20%;
+  padding: 1px;
+  height: auto; 
   border: solid black;
   border-width: 3px;
   border-radius: 10px;
