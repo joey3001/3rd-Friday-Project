@@ -3,9 +3,13 @@ $(document).ready(function() {
     event.preventDefault();
     let number = $("#number").val();
     let numberArray = []; 
-    for (let i = 0; i <= number ; i++) {
-      numberArray[i] = i 
-      alert(numberArray);
+    let y = 0; 
+    for (let i = 0; i <= number; i++) {
+      numberArray[i] = i; 
+      if (i > 9) {
+        let digits = i.toString().split("");
+        alert(digits);
+      }
     }
   });
 });
