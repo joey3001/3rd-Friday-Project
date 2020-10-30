@@ -19,7 +19,7 @@ $(document).ready(function() {
   $("#numberInput").submit(function(event) {
     event.preventDefault();
     let numberArray = numberSwapper($("#number").val());
-    $("#content * >").hide("");
+    $("#content > *").hide("");
     $("#message").text(numberArray.toString());
     $("#message").fadeIn("slow");
     $("img").fadeIn("slow");
