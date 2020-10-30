@@ -8,8 +8,13 @@ $(document).ready(function() {
       numberArray[i] = i; 
       if (i > 9) {
         let digits = i.toString().split("");
-        alert(digits);
+        for (let index = 0; index <= digits.length; index++) {
+          if (digits[index] === "1") {
+            numberArray[i] = "beep";
+          }
+        }
       }
     }
+    alert(numberArray);
   });
 });
