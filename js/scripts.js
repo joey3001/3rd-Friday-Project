@@ -5,17 +5,17 @@ $(document).ready(function() {
     let numberArray = []; 
     for (let i = 0; i <= number; i++) {
       numberArray[i] = " ".concat(i.toString()); 
-      let individualDigits = i.toString().split("");
-      for (let index = 0; index <= individualDigits.length; index++) {
-        if (individualDigits[index] === "2") {
-          numberArray[i] = " Boop!";
-          break;
+      let individualDigits = i.toString();
+        if (individualDigits.indexOf("3") >= 0) {
+        numberArray[i] = " Won't you be my neighbor?";
         }
-        else if (individualDigits[index] === "1") {
+        else if (individualDigits.indexOf("2") >= 0) {
+          numberArray[i] = " Boop!";
+        }
+        else if (individualDigits.indexOf("1") >= 0) {
           numberArray[i] = " Beep!";
         }
       }
-    }
     alert(numberArray);
   });
 });
