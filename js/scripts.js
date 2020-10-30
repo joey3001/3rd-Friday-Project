@@ -3,7 +3,6 @@ $(document).ready(function() {
     event.preventDefault();
     let number = $("#number").val();
     let numberArray = []; 
-    let y = 0; 
     for (let i = 0; i <= number; i++) {
       numberArray[i] = i; 
       if (i > 9) {
@@ -11,6 +10,7 @@ $(document).ready(function() {
         for (let index = 0; index <= digits.length; index++) {
           if (digits[index] === "1") {
             numberArray[i] = "beep";
+            break;
           }
         }
       }
