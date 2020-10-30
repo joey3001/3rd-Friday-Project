@@ -20,10 +20,9 @@ function numberSwapper(userNumber) {
 $(document).ready(function() {
   $("#numberInput").submit(function(event) {
     event.preventDefault();
-    let numberArray = numberSwapper($("#number").val());
-    $("#content > *").hide("");
-    $("#message").text(numberArray.toString());
-    $("#message").fadeIn("slow");
-    $("img").fadeIn("slow");
+    let swappedArray = numberSwapper($("#number").val());
+    $("#message, img").hide("");
+    $("#message").text(swappedArray);
+    $("#message, img").fadeIn("slow");
   });
 });
