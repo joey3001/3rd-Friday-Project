@@ -1,7 +1,6 @@
 function numberSwapper(userNumber) {
   let numberSwapArray = [];
   for (let i = 0; i <= userNumber; i++) {
-    numberSwapArray[i] = " ".concat(i.toString()); 
     if (i.toString().indexOf("3") >= 0) {
       numberSwapArray[i] = " Won't you be my neighbor?";
     }
@@ -10,6 +9,9 @@ function numberSwapper(userNumber) {
     }
     else if (i.toString().indexOf("1") >= 0) {
       numberSwapArray[i] = " Beep!";
+    }
+    else {
+      numberSwapArray[i] = " ".concat(i.toString()); 
     }
   }
   return numberSwapArray;
