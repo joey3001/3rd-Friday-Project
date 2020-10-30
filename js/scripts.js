@@ -4,12 +4,15 @@ $(document).ready(function() {
     let number = $("#number").val();
     let numberArray = []; 
     for (let i = 0; i <= number; i++) {
-      numberArray[i] = i; 
-      let digits = i.toString().split("");
-      for (let index = 0; index <= digits.length; index++) {
-        if (digits[index] === "1") {
-          numberArray[i] = "Beep!";
+      numberArray[i] = " ".concat(i.toString()); 
+      let individualDigits = i.toString().split("");
+      for (let index = 0; index <= individualDigits.length; index++) {
+        if (individualDigits[index] === "2") {
+          numberArray[i] = " Boop!";
           break;
+        }
+        else if (individualDigits[index] === "1") {
+          numberArray[i] = " Beep!";
         }
       }
     }

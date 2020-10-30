@@ -17,7 +17,7 @@ Test Specs are listed in the table below :
 | Test | Input | Output |
 | :----------- | :------------------------| :---------------- | 
 | number Swapper |||
-| should take a number entered by the user and return the range of numbers from 0 to the inputted number, with the exception of replacing all digits of any numbers containing a 1 with "Beep!" | 10 | 0, Beep, 2, 3, 4, 5, 6, 7, 8, 9, Beep! |
+| should take a number entered by the user and return the range of numbers from 0 to the inputted number, with the exception of replacing all digits of any numbers containing a 1 with "Beep!" | 10 | 0, Beep!, 2, 3, 4, 5, 6, 7, 8, 9, Beep! |
 
 
 
