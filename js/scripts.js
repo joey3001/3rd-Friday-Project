@@ -19,6 +19,8 @@ $(document).ready(function() {
   $("#numberInput").submit(function(event) {
     event.preventDefault();
     let numberArray = numberSwapper($("#number").val());
-    alert(numberArray);
+    $("#message").hide("");
+    $("#message").text(numberArray.toString());
+    $("#message").fadeIn("slow");
   });
 });
