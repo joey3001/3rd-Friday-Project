@@ -67,7 +67,7 @@ Test Specs are listed in the table below :
 
 ## Known Bugs
 
-1. Website does not function optimally with input numbers > 35,000. for numbers > 35,000, the resulting message is not contained in the text box. 
+1. Website does not function optimally with input numbers > 35,000. For numbers > 35,000, the resulting message is not contained in the text box. 
 2. Website has an extremely hard time loading for input numbers greater than 550,000. 
 
 ## Support and contact details
