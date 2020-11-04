@@ -8,9 +8,9 @@
 
 This application will take a number that is entered by the user and return a certain response depending on the content of that number. In particular, this code will take a number from a user and return a range of numbers from 0 to the user inputted number with the following exceptions written from least to most important:
 
-Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+1. Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+2. Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+3. Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 
 Test Specs are listed in the table below : 
 
