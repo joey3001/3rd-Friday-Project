@@ -17,6 +17,7 @@ Test Specs are listed in the table below :
 | Test | Input | Output |
 | :--------------------------- | :------------------------| :---------------- | 
 | number Swapper |||
+| should take a number entered by the user and return the range of numbers from 0 to the inputted number | 10 | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 |
 | should take a number entered by the user and return the range of numbers from 0 to the inputted number, with the exception of replacing all digits of any numbers containing a 1 with "Beep!" | 10 | 0, Beep!, 2, 3, 4, 5, 6, 7, 8, 9, Beep! |
 | should take a number entered by the user and return the range of numbers from 0 to the inputted number, with the exception of replacing all digits of any numbers containing a 2 with "Boop!" | 12 | 0, Beep!, Boop!, 3, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop! |
 | should take a number entered by the user and return the range of numbers from 0 to the inputted number, with the exception of replacing all digits of any numbers containing a 3 with "Won't you be my neighbor?" | 32 |  0, Beep!, Boop!, Won't you be  my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be  my neighbor?, Beep!, Beep!, Beep!, Beep!, Beep!, Beep!, Boop!, Boop!, Boop!, Won't you be  my neighbor?, Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, Won't you be  my neighbor?, Won't you be  my neighbor?, Won't you be  my neighbor? |
